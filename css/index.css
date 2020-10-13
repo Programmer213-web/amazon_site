@@ -1,0 +1,105 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background-color: lightgreen;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.7rem;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.navbar .nav-brand {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3.3rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  color: black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.navbar .nav-brand:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  text-shadow: 0 0.3rem 0.7rem rgba(0, 0, 0, 0.4);
+}
+
+.navbar .nav-brand:active {
+  text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.4);
+}
+
+.navbar .nav-list {
+  width: 50%;
+}
+
+.navbar .nav-list .nav-links {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navbar .nav-list .nav-links .nav-list-item {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 2.5rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  display: inline-block;
+}
+
+.navbar .nav-list .nav-links .nav-list-item:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  text-shadow: 0 0.3rem 0.7rem rgba(0, 0, 0, 0.4);
+}
+
+.navbar .nav-list .nav-links .nav-list-item:active {
+  text-shadow: 0 0.3rem 0.2rem rgba(0, 0, 0, 0.4);
+}
+
+.navbar .burger {
+  display: none;
+}
+
+.navbar .burger .burger-line {
+  height: 0.6rem;
+  width: 3.5rem;
+  background-color: white;
+  margin: 0.5rem 0;
+}
+/*# sourceMappingURL=index.css.map */
